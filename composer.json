@@ -1,0 +1,21 @@
+{
+  "name": "flowpack/depender",
+  "type": "library",
+  "description": "General purpose dependent task solver.",
+  "homepage": "http://github.com/flowpack/depender",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Müller",
+      "homepage": "http://about.me/kitsunet"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flowpack\\Depender\\": "src/"
+    }
+  }
+}
